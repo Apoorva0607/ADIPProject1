@@ -2,7 +2,7 @@
 Statistics in shape space.
 A read before trying this project is :http://midag.cs.unc.edu/pubs/papers/CVAMIA04_Fletcher_DTStats.pdf
 The main fucntion is input_project1.m. The testing inputs to check this algorithm is corpus collosum data which is saved under cc-shapes folder.Each corpus callosum object consists of 64 points listed in an ASCII text file. Each line of
-the file contains a single point (x and y coordinates). The second testing data is set of 100 random traingles corrupted by gaussian noise.
+the file contains a single point (x and y coordinates). The second testing data is set of 100 random traingles corrupted by gaussian noise such that the three points on the traingle is p0=(-1,0), p1=(1,0) and p2=(0,s) where s is a gaussian random varibale with mean =1 and std=0.5 and then its corrupted by a gaussian noise with 0 mean and 0.1 std to all six coordinates of the 100 traingle.
 
 This is an implementation of statistics in shape space like kendall shape space and simple statistics on shape space such as frechet mean etc.
 Following functions have been implemented as follows:
